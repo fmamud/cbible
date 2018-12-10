@@ -20,9 +20,6 @@ $(DEST_DIR):
 build: clean $(DEST_DIR)
 	gcc -lcurl $(SRC_DIR)/bible.c -o $(DEST_DIR)/bible
 
-run: $(DEST_DIR)
-	@$(DEST_DIR)/bible
-
 clean:
 	$(RM) -r $(DEST_DIR)
 
