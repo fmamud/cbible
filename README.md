@@ -5,12 +5,14 @@ Simple way to get a Bible chunk data from [bible-api.com](https://bible-api.com/
 
 ## How to Install
 
-You can install or just build
+You can install or just build:
 
 ```shell
 make install
 bible john 3:16
 ```
+
+Output:
 
 ```json
 {
